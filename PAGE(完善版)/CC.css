@@ -1,0 +1,39 @@
+body {
+  background-image: url("bgimg.webp");
+  background-position: center;
+  background-size: cover;
+}
+
+img.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+#lead {
+  font-size: 27px;
+  font-weight: bold;
+  color: black;
+}
+
+#menu {
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+div.polaroid {
+  text-align: center;
+  width: 60%;
+  height:auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  /* transform: translate(-50%、 -50%); */
+}
+
+div.container {
+  text-align: center;
+  padding: 20px 20px;
+}
